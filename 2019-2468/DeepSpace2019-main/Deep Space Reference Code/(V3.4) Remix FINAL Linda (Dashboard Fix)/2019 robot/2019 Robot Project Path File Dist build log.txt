@@ -1,0 +1,3214 @@
+6/28/2019 2:56:20 PM
+
+[AB_L New Build](0.057)(213696):
+Project:2019 Robot Project.lvproj
+Target:Target
+BuildSpec:Path File Dist
+OS:Windows 95/NT
+LabVIEW Version: 18.0
+
+[AB_L ProjectFileData](0.058)(213696):
+NOTE:This data will be stale if the build spec has been modified and the project file has not been saved!
+
+<Item Name="Path File Dist" Type="Source Distribution">
+<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+<Property Name="Bld_buildCacheID" Type="Str">{1886E7BC-4477-4FB4-BCD2-972F87CE50E1}</Property>
+<Property Name="Bld_buildSpecName" Type="Str">Path File Dist</Property>
+<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/18.0</Property>
+<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/nazuc/Documents/LabVIEW Data/2018(32-bit)/ExtraVILib</Property>
+<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/Path File Dist</Property>
+<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+<Property Name="Bld_previewCacheID" Type="Str">{F64E79FE-5E4E-4200-A4ED-B8A0A49AF429}</Property>
+<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin/Trajectory Data</Property>
+<Property Name="Bld_version.build" Type="Int">53</Property>
+<Property Name="Bld_version.major" Type="Int">1</Property>
+<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/Trajectory Data</Property>
+<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/Trajectory Data/data</Property>
+<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+<Property Name="DestinationCount" Type="Int">2</Property>
+<Property Name="Source[0].itemID" Type="Str">{2B3064B3-4A53-4449-9BC6-E7D03CB49049}</Property>
+<Property Name="Source[0].type" Type="Str">Container</Property>
+<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
+<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+<Property Name="Source[1].itemID" Type="Ref">/Target/Drive/Trajectory Data</Property>
+<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+<Property Name="Source[1].type" Type="Str">Container</Property>
+<Property Name="SourceCount" Type="Int">2</Property>
+</Item>
+
+[AB_L Before Build Class Data](0.359)(213952):
+buildSpecName:Path File Dist
+linkerOption:English
+defaultLanguage:English
+supportedLanguages:[]
+excludedDirectories:[C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib;C:\Program Files (x86)\National Instruments\LabVIEW 2018\resource\objmgr;C:\ProgramData\National Instruments\InstCache\18.0;C:\Users\nazuc\Documents\LabVIEW Data\2018(32-bit)\ExtraVILib;C:\Program Files (x86)\National Instruments\LabVIEW 2018\instr.lib;C:\Program Files (x86)\National Instruments\LabVIEW 2018\user.lib
+]
+buildContext:7237284768688111616
+buildObject:380017960
+preview:FALSE
+
+
+Source[0] (Container)
+path:
+itemID:{4C168573-CE87-487C-BDEA-66A6FAA636CD}
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[1] (Container)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data
+itemID:{D69E6F0C-6BD7-4D9F-BD9D-1FB627E64DE7}
+containerIndex:-1
+sourceInclusion:Include
+destinationIndex:0
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:TRUE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[2] (Container)
+path:
+itemID:{92AFE3F6-7F87-4EA3-8909-52AB40BDA629}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[3] (Container)
+path:
+itemID:{FCA7C953-D47F-4FD6-993D-862C2C1EA847}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[4] (Container)
+path:
+itemID:{521567A8-5D6C-45D9-BB68-897A7E292FBB}
+containerIndex:1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[5] (Container)
+path:
+itemID:{4F329377-0A33-4D3E-A511-24427F856926}
+containerIndex:2
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[6] (Container)
+path:
+itemID:{E48D5346-5C08-4DC1-83D7-30A87D0384E1}
+containerIndex:2
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[7] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) 10 ft {5v 10a 0s 0f}
+itemID:{C55470B3-9417-448F-80B4-E98E9952DECD}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[8] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing End
+itemID:{CD56F37E-4BCB-4B70-9A25-088913820666}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[9] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing Middle
+itemID:{17F2A429-A0A2-411D-AB0C-85811FCABC1C}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[10] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing Start
+itemID:{74DFF7DE-DAE2-4803-9CA3-CF6D21B12F12}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[11] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing {4v 20a 0s 0f}
+itemID:{29F93133-AAFA-43DB-BB76-374D6699F218}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[12] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(1) Off of hab {5v 10a 0s 5f}
+itemID:{D243F353-A365-42E9-949F-FBA73AC91BFC}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[13] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup (V2) {6v, 15a, 0s. 0f}
+itemID:{75471F25-9F7E-4AD1-B81D-84F5328AEBE9}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[14] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup (V3) {6v, 15a, 0s. 0f}
+itemID:{801EFE08-C924-4343-B302-FD319DD41FC1}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[15] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup {6v, 15a, 0s. 0f}
+itemID:{6310B38C-B0C6-4E54-B95C-60A3CCFBBFFC}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[16] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Test part 1
+itemID:{A3FC4FA1-6282-4732-89D1-0FDA5327FBBE}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[17] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Test part 2
+itemID:{ED096FC7-EBFD-4D35-A5B5-41FFF8109105}
+containerIndex:3
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[18] (Container)
+path:
+itemID:{BE640E7D-94AF-4DD5-B7B6-A850635DDD7D}
+containerIndex:4
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[19] (Container)
+path:
+itemID:{EA704921-24D0-46FF-8455-5839C139EF80}
+containerIndex:4
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[20] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(1) Left to Cargo 0R From Hab 1
+itemID:{6895F2FA-E0F4-4D94-96E8-B324C929B616}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[21] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Cargoship One {5v 10a 5s 0f}
+itemID:{DA6D27FB-0CB4-412F-B0E0-8E5731DA1B9B}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[22] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Cargoship One {9v 20a 5s 0f}
+itemID:{ACA0D490-36AB-4508-AAF1-3709D25D5077}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[23] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left to Feeder Station From Cargo 0L
+itemID:{957AC8B5-6012-4BD0-BA54-5CCE3DB0587E}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[24] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left to Feeder Station From Cargo 0R
+itemID:{3BD5DBFB-E242-4F85-B219-CDB2B788C1E1}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[25] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+itemID:{5161AD77-A8CA-4C50-BDF6-EF99A13E9AE4}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[26] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) Left To Cargo 0L From Feeder Station
+itemID:{994B8A00-E799-410A-BA3A-C49D4182A043}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[27] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) To Cargo 0L From Feeder Station
+itemID:{C7505BF2-1D68-4FD4-BAE3-DCD8B3271FCB}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[28] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) To Cargo 0R From Feeder Station
+itemID:{3093C8B8-3390-4663-B9F5-E73CD99CCD0F}
+containerIndex:5
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[29] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket  From Hab 1
+itemID:{0F5B0B69-4047-4676-9867-8A595E21F304}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[30] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket  From Hab 1{9v 14a 5s 0f}
+itemID:{F4B9C0F5-3DFE-4A73-91EC-250D585C5810}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[31] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket From hab 2 {9v 14a 5s 0f}
+itemID:{4FA84DE0-ACCB-435A-AE5C-AEAD670AF44F}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[32] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket {9v 14a 5s 0f}
+itemID:{D2F26ED5-6BB0-450E-8679-3F65AAC70DC5}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[33] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Better Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{E09518CE-AE31-4979-89F1-3B58E4D468A0}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[34] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Left To Far Rocket {9v 14a 5s 0f}
+itemID:{E6DC3259-BDC8-4B34-A4E4-DFB0027B1635}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[35] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{0ED59FB1-4317-4283-808D-745A721CA967}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[36] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Far Rocket from Feeder Station
+itemID:{7BD14625-CDE1-4883-ABC5-72D8F1A5B5DC}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[37] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{AB8EF09C-4FC2-4543-BC77-E51A927784DD}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[38] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Near Rocket from Feeder Station
+itemID:{879D2CAD-5171-4D42-A822-F85410D5F944}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[39] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Near Rocket from Feeder Station (No J turn)
+itemID:{E0AA2611-5E0C-461F-8D31-CB3A13AFE524}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[40] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\back to feeder
+itemID:{FACF75F2-1166-42E2-BD2D-6017EA1909F3}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[41] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\go to tower
+itemID:{439E881F-401E-424C-BA0C-588D2930371F}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[42] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\go to tower 2
+itemID:{6CFA32B7-1BF3-4FCE-91C5-0E0294216FFD}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[43] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\leave platform
+itemID:{64AC5EBD-F2B5-4618-826B-B0BCB8ED716E}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[44] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\leave platform slow
+itemID:{9B894E4D-8681-4B2D-9142-A08EDFEACB60}
+containerIndex:6
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[45] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(1) Right to Cargo 0L From Hab 1
+itemID:{8F31E1B2-433E-4C4E-9375-2113666015E6}
+containerIndex:18
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[46] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right To Cargoship One {9v 20a 5s 0f}
+itemID:{CC0634B4-BA0E-4767-9515-AD900F6CE1A3}
+containerIndex:18
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[47] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right to Feeder Station From Cargo 0L
+itemID:{AD3356B3-794A-4F1E-8192-7418C88446D7}
+containerIndex:18
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[48] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+itemID:{65DF7C68-F636-48BE-A0A5-56F4351ADD13}
+containerIndex:18
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[49] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(3) Right To Cargo 0R From Feeder Station
+itemID:{09CEA5C8-E917-4E40-99C2-A89C2BE54E03}
+containerIndex:18
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[50] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(1) Right To Far Rocket  From Hab 1{9v 14a 5s 0f}
+itemID:{5506DDA4-CBF1-448E-B870-C832AC33FFB6}
+containerIndex:19
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[51] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{928A0D82-3E84-4776-B3BF-EB2D65D81974}
+containerIndex:19
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[52] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Right To Far Rocket {9v 14a 5s 0f}
+itemID:{E224F600-DD44-43EC-81D9-09271D4B250F}
+containerIndex:19
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[53] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{5C13F8BC-5643-4C93-A5A3-EDE4A16D7BD9}
+containerIndex:19
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[54] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {5v 5a 5s 0f}
+itemID:{B2B7A151-CACF-4B4B-B743-E25FC980F596}
+containerIndex:19
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[55] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {8v 10a 5s 0f}
+itemID:{760981AE-6FEF-446A-A84A-BF79BE18A2D9}
+containerIndex:19
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[56] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {9v 14a 5s 0f}
+itemID:{BC8FF1B8-2FB1-4AC4-BF8B-45F83DC936D2}
+containerIndex:19
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[57] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(3) Right To Far Rocket from Feeder Station
+itemID:{92EEAE8D-8E38-45B5-B1E9-6545262D3AC1}
+containerIndex:19
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[58] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(3) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{087C4FAB-BECB-4B4B-804D-D9D0AB69B439}
+containerIndex:19
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+
+Destination[0]
+destName:Destination Directory
+path:home:\lvuser\natinst\bin\Trajectory Data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:home:\lvuser\natinst\bin\Trajectory Data\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+[AB_L Applied Container Class Data](0.360)(214016):
+buildSpecName:Path File Dist
+linkerOption:English
+defaultLanguage:English
+supportedLanguages:[]
+excludedDirectories:[C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib;C:\Program Files (x86)\National Instruments\LabVIEW 2018\resource\objmgr;C:\ProgramData\National Instruments\InstCache\18.0;C:\Users\nazuc\Documents\LabVIEW Data\2018(32-bit)\ExtraVILib;C:\Program Files (x86)\National Instruments\LabVIEW 2018\instr.lib;C:\Program Files (x86)\National Instruments\LabVIEW 2018\user.lib
+]
+buildContext:7237284768688111616
+buildObject:380017960
+preview:FALSE
+
+
+Source[0] (Container)
+path:
+itemID:{4C168573-CE87-487C-BDEA-66A6FAA636CD}
+containerIndex:-1
+sourceInclusion:IncludeIfReferenced
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[1] (Container)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data
+itemID:{D69E6F0C-6BD7-4D9F-BD9D-1FB627E64DE7}
+containerIndex:-1
+sourceInclusion:Include
+destinationIndex:0
+properties:[]
+newName:Trajectory Data
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:TRUE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[2] (Container)
+path:
+itemID:{92AFE3F6-7F87-4EA3-8909-52AB40BDA629}
+containerIndex:1
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[3] (Container)
+path:
+itemID:{FCA7C953-D47F-4FD6-993D-862C2C1EA847}
+containerIndex:1
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[4] (Container)
+path:
+itemID:{521567A8-5D6C-45D9-BB68-897A7E292FBB}
+containerIndex:1
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[5] (Container)
+path:
+itemID:{4F329377-0A33-4D3E-A511-24427F856926}
+containerIndex:2
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[6] (Container)
+path:
+itemID:{E48D5346-5C08-4DC1-83D7-30A87D0384E1}
+containerIndex:2
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[7] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) 10 ft {5v 10a 0s 0f}
+itemID:{C55470B3-9417-448F-80B4-E98E9952DECD}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(0) 10 ft {5v 10a 0s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[8] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing End
+itemID:{CD56F37E-4BCB-4B70-9A25-088913820666}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(0) Circle thing End
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[9] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing Middle
+itemID:{17F2A429-A0A2-411D-AB0C-85811FCABC1C}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(0) Circle thing Middle
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[10] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing Start
+itemID:{74DFF7DE-DAE2-4803-9CA3-CF6D21B12F12}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(0) Circle thing Start
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[11] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing {4v 20a 0s 0f}
+itemID:{29F93133-AAFA-43DB-BB76-374D6699F218}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(0) Circle thing {4v 20a 0s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[12] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(1) Off of hab {5v 10a 0s 5f}
+itemID:{D243F353-A365-42E9-949F-FBA73AC91BFC}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(1) Off of hab {5v 10a 0s 5f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[13] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup (V2) {6v, 15a, 0s. 0f}
+itemID:{75471F25-9F7E-4AD1-B81D-84F5328AEBE9}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:Backup (V2) {6v, 15a, 0s. 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[14] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup (V3) {6v, 15a, 0s. 0f}
+itemID:{801EFE08-C924-4343-B302-FD319DD41FC1}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:Backup (V3) {6v, 15a, 0s. 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[15] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup {6v, 15a, 0s. 0f}
+itemID:{6310B38C-B0C6-4E54-B95C-60A3CCFBBFFC}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:Backup {6v, 15a, 0s. 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[16] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Test part 1
+itemID:{A3FC4FA1-6282-4732-89D1-0FDA5327FBBE}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:Test part 1
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[17] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Test part 2
+itemID:{ED096FC7-EBFD-4D35-A5B5-41FFF8109105}
+containerIndex:3
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:Test part 2
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[18] (Container)
+path:
+itemID:{BE640E7D-94AF-4DD5-B7B6-A850635DDD7D}
+containerIndex:4
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[19] (Container)
+path:
+itemID:{EA704921-24D0-46FF-8455-5839C139EF80}
+containerIndex:4
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+applyInclusion:FALSE
+applyDestination:FALSE
+applyProperties:FALSE
+applyPassword:FALSE
+applyPrefix:FALSE
+
+Source[20] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(1) Left to Cargo 0R From Hab 1
+itemID:{6895F2FA-E0F4-4D94-96E8-B324C929B616}
+containerIndex:5
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(1) Left to Cargo 0R From Hab 1
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[21] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Cargoship One {5v 10a 5s 0f}
+itemID:{DA6D27FB-0CB4-412F-B0E0-8E5731DA1B9B}
+containerIndex:5
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Left To Cargoship One {5v 10a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[22] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Cargoship One {9v 20a 5s 0f}
+itemID:{ACA0D490-36AB-4508-AAF1-3709D25D5077}
+containerIndex:5
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Left To Cargoship One {9v 20a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[23] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left to Feeder Station From Cargo 0L
+itemID:{957AC8B5-6012-4BD0-BA54-5CCE3DB0587E}
+containerIndex:5
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Left to Feeder Station From Cargo 0L
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[24] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left to Feeder Station From Cargo 0R
+itemID:{3BD5DBFB-E242-4F85-B219-CDB2B788C1E1}
+containerIndex:5
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Left to Feeder Station From Cargo 0R
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[25] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+itemID:{5161AD77-A8CA-4C50-BDF6-EF99A13E9AE4}
+containerIndex:5
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Left To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[26] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) Left To Cargo 0L From Feeder Station
+itemID:{994B8A00-E799-410A-BA3A-C49D4182A043}
+containerIndex:5
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(3) Left To Cargo 0L From Feeder Station
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[27] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) To Cargo 0L From Feeder Station
+itemID:{C7505BF2-1D68-4FD4-BAE3-DCD8B3271FCB}
+containerIndex:5
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(3) To Cargo 0L From Feeder Station
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[28] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) To Cargo 0R From Feeder Station
+itemID:{3093C8B8-3390-4663-B9F5-E73CD99CCD0F}
+containerIndex:5
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(3) To Cargo 0R From Feeder Station
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[29] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket  From Hab 1
+itemID:{0F5B0B69-4047-4676-9867-8A595E21F304}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(1) Left To Far Rocket  From Hab 1
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[30] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket  From Hab 1{9v 14a 5s 0f}
+itemID:{F4B9C0F5-3DFE-4A73-91EC-250D585C5810}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(1) Left To Far Rocket  From Hab 1{9v 14a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[31] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket From hab 2 {9v 14a 5s 0f}
+itemID:{4FA84DE0-ACCB-435A-AE5C-AEAD670AF44F}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(1) Left To Far Rocket From hab 2 {9v 14a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[32] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket {9v 14a 5s 0f}
+itemID:{D2F26ED5-6BB0-450E-8679-3F65AAC70DC5}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(1) Left To Far Rocket {9v 14a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[33] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Better Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{E09518CE-AE31-4979-89F1-3B58E4D468A0}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Better Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[34] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Left To Far Rocket {9v 14a 5s 0f}
+itemID:{E6DC3259-BDC8-4B34-A4E4-DFB0027B1635}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Left To Far Rocket {9v 14a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[35] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{0ED59FB1-4317-4283-808D-745A721CA967}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[36] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Far Rocket from Feeder Station
+itemID:{7BD14625-CDE1-4883-ABC5-72D8F1A5B5DC}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(3) Left To Far Rocket from Feeder Station
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[37] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{AB8EF09C-4FC2-4543-BC77-E51A927784DD}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(3) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[38] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Near Rocket from Feeder Station
+itemID:{879D2CAD-5171-4D42-A822-F85410D5F944}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(3) Left To Near Rocket from Feeder Station
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[39] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Near Rocket from Feeder Station (No J turn)
+itemID:{E0AA2611-5E0C-461F-8D31-CB3A13AFE524}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(3) Left To Near Rocket from Feeder Station (No J turn)
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[40] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\back to feeder
+itemID:{FACF75F2-1166-42E2-BD2D-6017EA1909F3}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:back to feeder
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[41] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\go to tower
+itemID:{439E881F-401E-424C-BA0C-588D2930371F}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:go to tower
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[42] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\go to tower 2
+itemID:{6CFA32B7-1BF3-4FCE-91C5-0E0294216FFD}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:go to tower 2
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[43] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\leave platform
+itemID:{64AC5EBD-F2B5-4618-826B-B0BCB8ED716E}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:leave platform
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[44] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\leave platform slow
+itemID:{9B894E4D-8681-4B2D-9142-A08EDFEACB60}
+containerIndex:6
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:leave platform slow
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[45] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(1) Right to Cargo 0L From Hab 1
+itemID:{8F31E1B2-433E-4C4E-9375-2113666015E6}
+containerIndex:18
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(1) Right to Cargo 0L From Hab 1
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[46] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right To Cargoship One {9v 20a 5s 0f}
+itemID:{CC0634B4-BA0E-4767-9515-AD900F6CE1A3}
+containerIndex:18
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Right To Cargoship One {9v 20a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[47] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right to Feeder Station From Cargo 0L
+itemID:{AD3356B3-794A-4F1E-8192-7418C88446D7}
+containerIndex:18
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Right to Feeder Station From Cargo 0L
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[48] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+itemID:{65DF7C68-F636-48BE-A0A5-56F4351ADD13}
+containerIndex:18
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Right To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[49] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(3) Right To Cargo 0R From Feeder Station
+itemID:{09CEA5C8-E917-4E40-99C2-A89C2BE54E03}
+containerIndex:18
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(3) Right To Cargo 0R From Feeder Station
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[50] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(1) Right To Far Rocket  From Hab 1{9v 14a 5s 0f}
+itemID:{5506DDA4-CBF1-448E-B870-C832AC33FFB6}
+containerIndex:19
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(1) Right To Far Rocket  From Hab 1{9v 14a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[51] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{928A0D82-3E84-4776-B3BF-EB2D65D81974}
+containerIndex:19
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[52] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Right To Far Rocket {9v 14a 5s 0f}
+itemID:{E224F600-DD44-43EC-81D9-09271D4B250F}
+containerIndex:19
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Right To Far Rocket {9v 14a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[53] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{5C13F8BC-5643-4C93-A5A3-EDE4A16D7BD9}
+containerIndex:19
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[54] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {5v 5a 5s 0f}
+itemID:{B2B7A151-CACF-4B4B-B743-E25FC980F596}
+containerIndex:19
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) To Far Rocket {5v 5a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[55] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {8v 10a 5s 0f}
+itemID:{760981AE-6FEF-446A-A84A-BF79BE18A2D9}
+containerIndex:19
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) To Far Rocket {8v 10a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[56] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {9v 14a 5s 0f}
+itemID:{BC8FF1B8-2FB1-4AC4-BF8B-45F83DC936D2}
+containerIndex:19
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(2) To Far Rocket {9v 14a 5s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[57] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(3) Right To Far Rocket from Feeder Station
+itemID:{92EEAE8D-8E38-45B5-B1E9-6545262D3AC1}
+containerIndex:19
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(3) Right To Far Rocket from Feeder Station
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+Source[58] (Source)
+path:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(3) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+itemID:{087C4FAB-BECB-4B4B-804D-D9D0AB69B439}
+containerIndex:19
+sourceInclusion:Include
+destinationIndex:-1
+properties:[]
+newName:(3) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+lvfile:FALSE
+valid:TRUE
+eng_inBuild:FALSE
+eng_isNonVILink:FALSE
+Amalgamation: FALSE
+Amalgamation Piece: FALSE
+eng_delimitedName:
+preventRename:FALSE
+
+
+Destination[0]
+destName:Destination Directory
+path:home:\lvuser\natinst\bin\Trajectory Data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:home:\lvuser\natinst\bin\Trajectory Data\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+[AB_L Opened TopLevel](0.388)(214272):
+
+[AB_L Linker Info](0.397)(214272):
+LinksToInclude:Exclusions -
+Edit time Dep: 0
+Typedefs: 0
+Poly VIs: 0
+Unsed lib items:0
+TopLevelPaths:
+
+
+[AB_L Post Linker](0.397)(214272):
+
+[AB_L Linker Items](0.397)(214272):
+
+[AB_L Preview_PresrvHier](0.398)(214272):
+
+[AB_L Build Preview](0.402)(214400):
+Files:
+(0) 10 ft {5v 10a 0s 0f}(visible)
+(0) Circle thing End(visible)
+(0) Circle thing Middle(visible)
+(0) Circle thing Start(visible)
+(0) Circle thing {4v 20a 0s 0f}(visible)
+(1) Left to Cargo 0R From Hab 1(visible)
+(1) Left To Far Rocket  From Hab 1(visible)
+(1) Left To Far Rocket  From Hab 1{9v 14a 5s 0f}(visible)
+(1) Left To Far Rocket From hab 2 {9v 14a 5s 0f}(visible)
+(1) Left To Far Rocket {9v 14a 5s 0f}(visible)
+(1) Off of hab {5v 10a 0s 5f}(visible)
+(1) Right to Cargo 0L From Hab 1(visible)
+(1) Right To Far Rocket  From Hab 1{9v 14a 5s 0f}(visible)
+(2) Better Left To Feeder Station from Far Rocket {5v 14a 0s 0f}(visible)
+(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}(visible)
+(2) Left To Cargoship One {5v 10a 5s 0f}(visible)
+(2) Left To Cargoship One {9v 20a 5s 0f}(visible)
+(2) Left To Far Rocket {9v 14a 5s 0f}(visible)
+(2) Left to Feeder Station From Cargo 0L(visible)
+(2) Left to Feeder Station From Cargo 0R(visible)
+(2) Left To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}(visible)
+(2) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}(visible)
+(2) Right To Cargoship One {9v 20a 5s 0f}(visible)
+(2) Right To Far Rocket {9v 14a 5s 0f}(visible)
+(2) Right to Feeder Station From Cargo 0L(visible)
+(2) Right To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}(visible)
+(2) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}(visible)
+(2) To Far Rocket {5v 5a 5s 0f}(visible)
+(2) To Far Rocket {8v 10a 5s 0f}(visible)
+(2) To Far Rocket {9v 14a 5s 0f}(visible)
+(3) Left To Cargo 0L From Feeder Station(visible)
+(3) Left To Far Rocket from Feeder Station(visible)
+(3) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}(visible)
+(3) Left To Near Rocket from Feeder Station(visible)
+(3) Left To Near Rocket from Feeder Station (No J turn)(visible)
+(3) Right To Cargo 0R From Feeder Station(visible)
+(3) Right To Far Rocket from Feeder Station(visible)
+(3) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}(visible)
+(3) To Cargo 0L From Feeder Station(visible)
+(3) To Cargo 0R From Feeder Station(visible)
+back to feeder(visible)
+Backup (V2) {6v, 15a, 0s. 0f}(visible)
+Backup (V3) {6v, 15a, 0s. 0f}(visible)
+Backup {6v, 15a, 0s. 0f}(visible)
+go to tower(visible)
+go to tower 2(visible)
+leave platform(visible)
+leave platform slow(visible)
+Test part 1(visible)
+Test part 2(visible)
+
+Destination Files:
+
+Max path length: (173), C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+
+[AB_L Create Destinations](0.417)(214400):
+
+
+Destination[0]
+destName:Destination Directory
+path:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:TRUE
+eng_libraryReference:0
+
+Destination[1]
+destName:Support Directory
+path:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\data
+libraryName:
+preserveHierarchy:FALSE
+eng_inBuild:FALSE
+eng_libraryReference:0
+
+[AB_L Copy Files](0.432)(214400):
+
+SourceItem[7]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) 10 ft {5v 10a 0s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(0) 10 ft {5v 10a 0s 0f}
+newDelimitedName:(0) 10 ft {5v 10a 0s 0f}
+oldDelimitedName:(0) 10 ft {5v 10a 0s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[8]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing End
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(0) Circle thing End
+newDelimitedName:(0) Circle thing End
+oldDelimitedName:(0) Circle thing End
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[9]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing Middle
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(0) Circle thing Middle
+newDelimitedName:(0) Circle thing Middle
+oldDelimitedName:(0) Circle thing Middle
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[10]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing Start
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(0) Circle thing Start
+newDelimitedName:(0) Circle thing Start
+oldDelimitedName:(0) Circle thing Start
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[11]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing {4v 20a 0s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(0) Circle thing {4v 20a 0s 0f}
+newDelimitedName:(0) Circle thing {4v 20a 0s 0f}
+oldDelimitedName:(0) Circle thing {4v 20a 0s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:5
+
+SourceItem[12]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(1) Off of hab {5v 10a 0s 5f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Off of hab {5v 10a 0s 5f}
+newDelimitedName:(1) Off of hab {5v 10a 0s 5f}
+oldDelimitedName:(1) Off of hab {5v 10a 0s 5f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[13]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup (V2) {6v, 15a, 0s. 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\Backup (V2) {6v, 15a, 0s. 0f}
+newDelimitedName:Backup (V2) {6v, 15a, 0s. 0f}
+oldDelimitedName:Backup (V2) {6v, 15a, 0s. 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[14]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup (V3) {6v, 15a, 0s. 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\Backup (V3) {6v, 15a, 0s. 0f}
+newDelimitedName:Backup (V3) {6v, 15a, 0s. 0f}
+oldDelimitedName:Backup (V3) {6v, 15a, 0s. 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[15]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup {6v, 15a, 0s. 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\Backup {6v, 15a, 0s. 0f}
+newDelimitedName:Backup {6v, 15a, 0s. 0f}
+oldDelimitedName:Backup {6v, 15a, 0s. 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[16]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Test part 1
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\Test part 1
+newDelimitedName:Test part 1
+oldDelimitedName:Test part 1
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[17]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Test part 2
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\Test part 2
+newDelimitedName:Test part 2
+oldDelimitedName:Test part 2
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[20]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(1) Left to Cargo 0R From Hab 1
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Left to Cargo 0R From Hab 1
+newDelimitedName:(1) Left to Cargo 0R From Hab 1
+oldDelimitedName:(1) Left to Cargo 0R From Hab 1
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[21]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Cargoship One {5v 10a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left To Cargoship One {5v 10a 5s 0f}
+newDelimitedName:(2) Left To Cargoship One {5v 10a 5s 0f}
+oldDelimitedName:(2) Left To Cargoship One {5v 10a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[22]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Cargoship One {9v 20a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left To Cargoship One {9v 20a 5s 0f}
+newDelimitedName:(2) Left To Cargoship One {9v 20a 5s 0f}
+oldDelimitedName:(2) Left To Cargoship One {9v 20a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:5
+
+SourceItem[23]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left to Feeder Station From Cargo 0L
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left to Feeder Station From Cargo 0L
+newDelimitedName:(2) Left to Feeder Station From Cargo 0L
+oldDelimitedName:(2) Left to Feeder Station From Cargo 0L
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:6
+
+SourceItem[24]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left to Feeder Station From Cargo 0R
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left to Feeder Station From Cargo 0R
+newDelimitedName:(2) Left to Feeder Station From Cargo 0R
+oldDelimitedName:(2) Left to Feeder Station From Cargo 0R
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[25]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+newDelimitedName:(2) Left To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+oldDelimitedName:(2) Left To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[26]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) Left To Cargo 0L From Feeder Station
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Left To Cargo 0L From Feeder Station
+newDelimitedName:(3) Left To Cargo 0L From Feeder Station
+oldDelimitedName:(3) Left To Cargo 0L From Feeder Station
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[27]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) To Cargo 0L From Feeder Station
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) To Cargo 0L From Feeder Station
+newDelimitedName:(3) To Cargo 0L From Feeder Station
+oldDelimitedName:(3) To Cargo 0L From Feeder Station
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[28]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) To Cargo 0R From Feeder Station
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) To Cargo 0R From Feeder Station
+newDelimitedName:(3) To Cargo 0R From Feeder Station
+oldDelimitedName:(3) To Cargo 0R From Feeder Station
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[29]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket  From Hab 1
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Left To Far Rocket  From Hab 1
+newDelimitedName:(1) Left To Far Rocket  From Hab 1
+oldDelimitedName:(1) Left To Far Rocket  From Hab 1
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[30]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket  From Hab 1{9v 14a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Left To Far Rocket  From Hab 1{9v 14a 5s 0f}
+newDelimitedName:(1) Left To Far Rocket  From Hab 1{9v 14a 5s 0f}
+oldDelimitedName:(1) Left To Far Rocket  From Hab 1{9v 14a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[31]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket From hab 2 {9v 14a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Left To Far Rocket From hab 2 {9v 14a 5s 0f}
+newDelimitedName:(1) Left To Far Rocket From hab 2 {9v 14a 5s 0f}
+oldDelimitedName:(1) Left To Far Rocket From hab 2 {9v 14a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[32]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket {9v 14a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Left To Far Rocket {9v 14a 5s 0f}
+newDelimitedName:(1) Left To Far Rocket {9v 14a 5s 0f}
+oldDelimitedName:(1) Left To Far Rocket {9v 14a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[33]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Better Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Better Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newDelimitedName:(2) Better Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+oldDelimitedName:(2) Better Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[34]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Left To Far Rocket {9v 14a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left To Far Rocket {9v 14a 5s 0f}
+newDelimitedName:(2) Left To Far Rocket {9v 14a 5s 0f}
+oldDelimitedName:(2) Left To Far Rocket {9v 14a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[35]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newDelimitedName:(2) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+oldDelimitedName:(2) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[36]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Far Rocket from Feeder Station
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Left To Far Rocket from Feeder Station
+newDelimitedName:(3) Left To Far Rocket from Feeder Station
+oldDelimitedName:(3) Left To Far Rocket from Feeder Station
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[37]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newDelimitedName:(3) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+oldDelimitedName:(3) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[38]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Near Rocket from Feeder Station
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Left To Near Rocket from Feeder Station
+newDelimitedName:(3) Left To Near Rocket from Feeder Station
+oldDelimitedName:(3) Left To Near Rocket from Feeder Station
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[39]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Near Rocket from Feeder Station (No J turn)
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Left To Near Rocket from Feeder Station (No J turn)
+newDelimitedName:(3) Left To Near Rocket from Feeder Station (No J turn)
+oldDelimitedName:(3) Left To Near Rocket from Feeder Station (No J turn)
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[40]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\back to feeder
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\back to feeder
+newDelimitedName:back to feeder
+oldDelimitedName:back to feeder
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[41]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\go to tower
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\go to tower
+newDelimitedName:go to tower
+oldDelimitedName:go to tower
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[42]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\go to tower 2
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\go to tower 2
+newDelimitedName:go to tower 2
+oldDelimitedName:go to tower 2
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[43]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\leave platform
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\leave platform
+newDelimitedName:leave platform
+oldDelimitedName:leave platform
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[44]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\leave platform slow
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\leave platform slow
+newDelimitedName:leave platform slow
+oldDelimitedName:leave platform slow
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:5
+
+SourceItem[45]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(1) Right to Cargo 0L From Hab 1
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Right to Cargo 0L From Hab 1
+newDelimitedName:(1) Right to Cargo 0L From Hab 1
+oldDelimitedName:(1) Right to Cargo 0L From Hab 1
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[46]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right To Cargoship One {9v 20a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Right To Cargoship One {9v 20a 5s 0f}
+newDelimitedName:(2) Right To Cargoship One {9v 20a 5s 0f}
+oldDelimitedName:(2) Right To Cargoship One {9v 20a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[47]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right to Feeder Station From Cargo 0L
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Right to Feeder Station From Cargo 0L
+newDelimitedName:(2) Right to Feeder Station From Cargo 0L
+oldDelimitedName:(2) Right to Feeder Station From Cargo 0L
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[48]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Right To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+newDelimitedName:(2) Right To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+oldDelimitedName:(2) Right To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[49]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(3) Right To Cargo 0R From Feeder Station
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Right To Cargo 0R From Feeder Station
+newDelimitedName:(3) Right To Cargo 0R From Feeder Station
+oldDelimitedName:(3) Right To Cargo 0R From Feeder Station
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[50]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(1) Right To Far Rocket  From Hab 1{9v 14a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Right To Far Rocket  From Hab 1{9v 14a 5s 0f}
+newDelimitedName:(1) Right To Far Rocket  From Hab 1{9v 14a 5s 0f}
+oldDelimitedName:(1) Right To Far Rocket  From Hab 1{9v 14a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[51]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newDelimitedName:(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+oldDelimitedName:(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[52]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Right To Far Rocket {9v 14a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Right To Far Rocket {9v 14a 5s 0f}
+newDelimitedName:(2) Right To Far Rocket {9v 14a 5s 0f}
+oldDelimitedName:(2) Right To Far Rocket {9v 14a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[53]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newDelimitedName:(2) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+oldDelimitedName:(2) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[54]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {5v 5a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) To Far Rocket {5v 5a 5s 0f}
+newDelimitedName:(2) To Far Rocket {5v 5a 5s 0f}
+oldDelimitedName:(2) To Far Rocket {5v 5a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[55]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {8v 10a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) To Far Rocket {8v 10a 5s 0f}
+newDelimitedName:(2) To Far Rocket {8v 10a 5s 0f}
+oldDelimitedName:(2) To Far Rocket {8v 10a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:2
+
+SourceItem[56]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {9v 14a 5s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) To Far Rocket {9v 14a 5s 0f}
+newDelimitedName:(2) To Far Rocket {9v 14a 5s 0f}
+oldDelimitedName:(2) To Far Rocket {9v 14a 5s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[57]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(3) Right To Far Rocket from Feeder Station
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Right To Far Rocket from Feeder Station
+newDelimitedName:(3) Right To Far Rocket from Feeder Station
+oldDelimitedName:(3) Right To Far Rocket from Feeder Station
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:3
+
+SourceItem[58]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(3) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+newDelimitedName:(3) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+oldDelimitedName:(3) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+LLBtopLevel?:FALSE
+HasNonVILinks?:FALSE
+IsNonVILink?:FALSE
+appTopLevel?:FALSE
+IsRTM?:FALSE
+processTime:1
+
+[AB_L Save&Close Files](0.568)(214400):
+
+[AB_L Post Prepare Files](0.569)(214400):
+
+SourceItem[0]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) 10 ft {5v 10a 0s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(0) 10 ft {5v 10a 0s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[1]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing End
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(0) Circle thing End
+saveLevel:0x0
+saveTime:0
+
+SourceItem[2]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing Middle
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(0) Circle thing Middle
+saveLevel:0x0
+saveTime:0
+
+SourceItem[3]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing Start
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(0) Circle thing Start
+saveLevel:0x0
+saveTime:0
+
+SourceItem[4]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(0) Circle thing {4v 20a 0s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(0) Circle thing {4v 20a 0s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[5]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\(1) Off of hab {5v 10a 0s 5f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Off of hab {5v 10a 0s 5f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[6]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup (V2) {6v, 15a, 0s. 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\Backup (V2) {6v, 15a, 0s. 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[7]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup (V3) {6v, 15a, 0s. 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\Backup (V3) {6v, 15a, 0s. 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[8]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Backup {6v, 15a, 0s. 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\Backup {6v, 15a, 0s. 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[9]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Test part 1
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\Test part 1
+saveLevel:0x0
+saveTime:0
+
+SourceItem[10]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Other\Test part 2
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\Test part 2
+saveLevel:0x0
+saveTime:0
+
+SourceItem[11]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(1) Left to Cargo 0R From Hab 1
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Left to Cargo 0R From Hab 1
+saveLevel:0x0
+saveTime:0
+
+SourceItem[12]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Cargoship One {5v 10a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left To Cargoship One {5v 10a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[13]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Cargoship One {9v 20a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left To Cargoship One {9v 20a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[14]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left to Feeder Station From Cargo 0L
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left to Feeder Station From Cargo 0L
+saveLevel:0x0
+saveTime:0
+
+SourceItem[15]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left to Feeder Station From Cargo 0R
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left to Feeder Station From Cargo 0R
+saveLevel:0x0
+saveTime:0
+
+SourceItem[16]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(2) Left To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[17]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) Left To Cargo 0L From Feeder Station
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Left To Cargo 0L From Feeder Station
+saveLevel:0x0
+saveTime:0
+
+SourceItem[18]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) To Cargo 0L From Feeder Station
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) To Cargo 0L From Feeder Station
+saveLevel:0x0
+saveTime:1
+
+SourceItem[19]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Cargo\(3) To Cargo 0R From Feeder Station
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) To Cargo 0R From Feeder Station
+saveLevel:0x0
+saveTime:0
+
+SourceItem[20]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket  From Hab 1
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Left To Far Rocket  From Hab 1
+saveLevel:0x0
+saveTime:0
+
+SourceItem[21]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket  From Hab 1{9v 14a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Left To Far Rocket  From Hab 1{9v 14a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[22]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket From hab 2 {9v 14a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Left To Far Rocket From hab 2 {9v 14a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[23]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(1) Left To Far Rocket {9v 14a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Left To Far Rocket {9v 14a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[24]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Better Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Better Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[25]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Left To Far Rocket {9v 14a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left To Far Rocket {9v 14a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[26]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(2) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[27]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Far Rocket from Feeder Station
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Left To Far Rocket from Feeder Station
+saveLevel:0x0
+saveTime:0
+
+SourceItem[28]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Left To Feeder Station from Far Rocket {5v 14a 0s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[29]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Near Rocket from Feeder Station
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Left To Near Rocket from Feeder Station
+saveLevel:0x0
+saveTime:0
+
+SourceItem[30]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\(3) Left To Near Rocket from Feeder Station (No J turn)
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Left To Near Rocket from Feeder Station (No J turn)
+saveLevel:0x0
+saveTime:0
+
+SourceItem[31]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\back to feeder
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\back to feeder
+saveLevel:0x0
+saveTime:0
+
+SourceItem[32]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\go to tower
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\go to tower
+saveLevel:0x0
+saveTime:0
+
+SourceItem[33]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\go to tower 2
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\go to tower 2
+saveLevel:0x0
+saveTime:0
+
+SourceItem[34]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\leave platform
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\leave platform
+saveLevel:0x0
+saveTime:0
+
+SourceItem[35]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Left\Rocket\leave platform slow
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\leave platform slow
+saveLevel:0x0
+saveTime:0
+
+SourceItem[36]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(1) Right to Cargo 0L From Hab 1
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Right to Cargo 0L From Hab 1
+saveLevel:0x0
+saveTime:0
+
+SourceItem[37]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right To Cargoship One {9v 20a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Right To Cargoship One {9v 20a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[38]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right to Feeder Station From Cargo 0L
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Right to Feeder Station From Cargo 0L
+saveLevel:0x0
+saveTime:0
+
+SourceItem[39]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(2) Right To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Right To Feeder Station from Cargo 1 {9v, 16a, 0s, 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[40]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Cargo\(3) Right To Cargo 0R From Feeder Station
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Right To Cargo 0R From Feeder Station
+saveLevel:0x0
+saveTime:0
+
+SourceItem[41]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(1) Right To Far Rocket  From Hab 1{9v 14a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(1) Right To Far Rocket  From Hab 1{9v 14a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[42]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Better Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[43]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Right To Far Rocket {9v 14a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Right To Far Rocket {9v 14a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[44]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[45]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {5v 5a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) To Far Rocket {5v 5a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[46]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {8v 10a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) To Far Rocket {8v 10a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[47]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(2) To Far Rocket {9v 14a 5s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(2) To Far Rocket {9v 14a 5s 0f}
+saveLevel:0x0
+saveTime:0
+
+SourceItem[48]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(3) Right To Far Rocket from Feeder Station
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Right To Far Rocket from Feeder Station
+saveLevel:0x0
+saveTime:0
+
+SourceItem[49]
+sourcePath:C:\Users\hp\Desktop\2019 robot\Drive\Trajectory Data\Right\Rocket\(3) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+destPath:C:\Users\hp\Desktop\builds\2019 Robot Project\Target\Path File Dist\home\lvuser\natinst\bin\Trajectory Data\(3) Right To Feeder Station from Far Rocket {5v 14a 0s 0f}
+saveLevel:0x0
+saveTime:1
+
+[AB_L Post Save](0.588)(214400):
+
+[AB_L Set Top Level](0.687)(214400):
+
+[AB_L Close Refs](0.687)(214400):
+
+[AB_L CloseBuild](0.722)(214400):
+
+[AB_L END](1.749)(214144):
+6/28/2019 2:56:21 PM
