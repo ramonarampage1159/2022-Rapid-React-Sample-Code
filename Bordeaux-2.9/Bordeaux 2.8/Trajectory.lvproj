@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -61,7 +61,7 @@
 			<Item Name="Add First Point.vi" Type="VI" URL="../Add First Point.vi"/>
 			<Item Name="Angle between Pts.vi" Type="VI" URL="../Angle between Pts.vi"/>
 			<Item Name="Array Sizer.vi" Type="VI" URL="../Array Sizer.vi"/>
-			<Item Name="Availible Command systems for auto.ctl" Type="VI" URL="../../2019 robot/Support Code/Availible Command systems for auto.ctl"/>
+			<Item Name="Availible Command systems for auto.ctl" Type="VI" URL="../Availible Command systems for auto.ctl"/>
 			<Item Name="Boolean to Unit Vector.vi" Type="VI" URL="../Boolean to Unit Vector.vi"/>
 			<Item Name="Calculate Blend Angles.vi" Type="VI" URL="../Calculate Blend Angles.vi"/>
 			<Item Name="Determine Clothoid Values.vi" Type="VI" URL="../Determine Clothoid Values.vi"/>
